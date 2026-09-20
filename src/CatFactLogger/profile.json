@@ -1,0 +1,53 @@
+{
+  "fullName": "Jan Dąbrowski",
+  "headline": "Junior .NET Developer",
+  "about": "Junior .NET Developer with hands-on experience building full-stack web applications using C#, ASP.NET Core, Blazor and Entity Framework. Passionate about growing in the .NET ecosystem and delivering end-to-end solutions",
+  "contact": {
+    "email": "jandab2002@o2.pl",
+    "gitHub": "https://github.com/jandabrowski2002",
+    "phone": "516199229"
+  },
+  "skills": [
+    {
+      "name": "C#",
+      "level": "Intermediate",
+      "yearsUsed": "1 year"
+    },
+    {
+      "name": "ASP.NET Core",
+      "level": "Intermediate",
+      "yearsUsed": "1 year"
+    },
+    {
+      "name": "Blazor",
+      "level": "Intermediate",
+      "yearsUsed": "1 year"
+    },
+    {
+      "name": "SQL Server",
+      "level": "Beginner",
+      "yearsUsed": "<1 year"
+    },
+    {
+      "name": "Git",
+      "level": "Intermediate",
+      "yearsUsed": "2 years"
+    }
+  ],
+  "experience": [
+    {
+      "role": ".NET Developer Intern",
+      "company": "Fakro",
+      "period": "July 2023 - September 2024",
+      "highlights": [
+        "Developed full-stack web applications using C#, ASP.NET Core and Blazor",
+        "Designed and maintained PostgreSQL databases, wrote SQL queries",
+        "Integrated data layer using Entity Framework as ORM, built REST API endpoints",
+        "Collaborated within a development team on feature delivery"
+      ]
+    }
+  ],
+  "education": [
+    "Bachelor of Applied Informatics, Cracow University of Economics, graduated in 2025"
+  ]
+}
