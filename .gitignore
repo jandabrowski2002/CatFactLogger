@@ -1,0 +1,16 @@
+## .NET
+bin/
+obj/
+*.user
+
+## Visual Studio
+.vs/
+
+## Rider
+.idea/
+
+## VS Code
+.vscode/
+
+## Runtime output from this app
+src/CatFactLogger/cat-facts.txt
