@@ -4,7 +4,7 @@
 
 A .NET 10 console app built for a recruitment task for NETWISE. It calls the [Cat Facts API](https://catfact.ninja/fact),
 appends every response to a local `.txt` file as a new line, and includes an
-extra "My profile" screen showing my CV, to go beyond the base requirements.
+extra "My profile" screen showing my CV.
 
 ![Cat Fact Logger screenshot 1](docs/screenshot1.png)
 *Main menu*

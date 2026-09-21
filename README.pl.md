@@ -4,8 +4,7 @@
 
 Aplikacja konsolowa w .NET 10 stworzona jako zadanie rekrutacyjne dla NETWISE. Łączy się z
 [Cat Facts API](https://catfact.ninja/fact), zapisuje każdą odpowiedź jako nową
-linię w lokalnym pliku `.txt`, a dodatkowo zawiera ekran "Moje CV" wykraczający
-poza podstawowe wymagania zadania.
+linię w lokalnym pliku `.txt`, a dodatkowo zawiera ekran "Moje CV".
 
 ![Cat Fact Logger zrzut ekranu 1](docs/screenshot1.png)
 *Menu główne*
@@ -18,7 +17,7 @@ poza podstawowe wymagania zadania.
 
 ## Co robi aplikacja
 
-- **Pobierz nowy fakt o kocie** — wywołuje `GET https://catfact.ninja/fact`,
+- **Pobierz nowy fakt o kotach** — wywołuje `GET https://catfact.ninja/fact`,
   wyświetla wynik i dopisuje go jako jedną linię JSON do pliku `cat-facts.txt`
   **na pulpicie aktualnego użytkownika**. Plik jest tworzony automatycznie przy
   pierwszym zapisie, więc działa tak samo dla każdego, kto uruchomi aplikację,
@@ -67,7 +66,7 @@ tests/CatFactLogger.Tests/
   FileFactStorageTests.cs    Zapis do pliku testowany na plikach tymczasowych
 ```
 
-## Dlaczego takie wybory
+## Dlaczego tak
 
 - **Dependency Injection** przez .NET Generic Host (`Host.CreateApplicationBuilder`).
   Każdy serwis ukryty jest za interfejsem (`ICatFactClient`, `IFactStorage`,
@@ -84,7 +83,7 @@ tests/CatFactLogger.Tests/
   zachowanie.
 - **Obsługa błędów**: błędy sieciowe, kody statusu HTTP inne niż sukces oraz
   niepoprawny JSON są przechwytywane i logowane; aplikacja wyświetla
-  przyjazny komunikat i działa dalej zamiast się wywalać.
+  przyjazny komunikat i działa dalej zamiast się crashować.
 - **Separacja odpowiedzialności**: pobieranie danych, zapisywanie danych,
   wczytywanie danych profilu i renderowanie profilu to osobne, niezależnie
   testowalne serwisy. `ConsoleMenu` jedynie nimi zarządza.
